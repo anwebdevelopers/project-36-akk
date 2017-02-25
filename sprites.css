@@ -1,0 +1,85 @@
+.icon-light-services2, .icon-light-services3, .icon-light-services4, .icon-dark-services1, .icon-dark-services2, .icon-dark-services3, .icon-dark-services4, .icon-light-services1, .icon-tobottom, .icon-toup{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-light-services2{
+	background-position: -440px -451px ;
+	width: 403px;
+	height: 380px;
+}
+
+.icon-light-services3{
+	background-position: -356px -911px ;
+	width: 314px;
+	height: 393px;
+}
+
+.icon-light-services4{
+	background-position: -452px -1375px ;
+	width: 414px;
+	height: 384px;
+}
+
+.icon-dark-services1{
+	background-position: 0 0;
+	width: 313px;
+	height: 391px;
+}
+
+.icon-dark-services2{
+	background-position: 0 -451px ;
+	width: 403px;
+	height: 380px;
+}
+
+.icon-dark-services3{
+	background-position: 0 -912px ;
+	width: 314px;
+	height: 393px;
+}
+
+.icon-dark-services4{
+	background-position: 0 -1375px ;
+	width: 414px;
+	height: 384px;
+}
+
+.icon-light-services1{
+	background-position: -356px 0;
+	width: 313px;
+	height: 391px;
+}
+
+.icon-tobottom{
+	background-position: -700.9772338867188px 0;
+	width: 30px;
+	height: 22px;
+}
+
+.icon-toup{
+	background-position: -756.9772338867188px -3.9659080505371094px ;
+	width: 16px;
+	height: 10px;
+}
+
+@size: 1px;
+.icon-rss,.icon-e-mail,.icon-youtube,.icon-mailru {
+	display: inline-block;
+	width: 16*(@size);
+	height: 16*(@size);
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+	background-size:496*(@size);
+}
+.icon-rss {
+	background-position: 0 0;
+}
+.icon-e-mail {
+	background-position: -32*(@size) 0;
+}
+.icon-youtube {
+	background-position: -64*(@size) 0;
+}
+.icon-mailru {
+	background-position: -96*(@size) 0;
+}

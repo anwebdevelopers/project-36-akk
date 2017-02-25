@@ -1,0 +1,105 @@
+@import "bourbon";
+@import "components/vars.scss";
+@import "components/normalize.scss";
+//@import "components/fonts.scss";
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: rem(20px);
+	min-width: 320px;
+	position: relative;
+	line-height: 1.4;
+	font-family: 'HypatiaSansPro', sans-serif;
+	color: #111;
+	background-color: #fff;
+}
+.container {
+	max-width: 1200px;
+	padding: 0 115px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+a {
+	outline: none !important;
+}
+.title {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #535353;
+	font-weight: 600;
+	letter-spacing: 4px;
+}
+.title_white {
+	color: #fff;
+}
+.heading {
+	margin: rem(70px) 0 0 0;
+	color: $main-color;
+	text-align: center;
+	h2 {
+		margin: 0;
+		font-size: rem(47px);
+		line-height: 1.4;
+	}
+}
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/about.scss";
+@import "components/services.scss";
+@import "components/footer.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/media.scss";
+
+//Load Libs SASS
+//@import "html/libs/animate/animate.sass";
+//@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+//@import "html/libs/magnific-popup/dist/magnific-popup";

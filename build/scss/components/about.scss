@@ -1,0 +1,18 @@
+.about {
+    padding: rem(80px) 0 rem(60px) 0;
+}
+.about__wrapper {
+    @extend .container;
+}
+.about__box {
+    margin: rem(50px) 0 0 0;
+}
+.about__text {
+    font-size: rem(20px);
+    line-height: 1.8;
+    color: #808080;
+    text-align: center;
+    p {
+        margin: rem(20px) 0;
+    }
+}

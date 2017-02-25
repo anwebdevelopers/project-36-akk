@@ -1,0 +1,100 @@
+.footer {
+    position: relative;
+    padding: rem(80px) 0 rem(140px) 0;
+    background-image: url(../img/bg-footer.jpg);
+    background-position: center 0;
+    background-size: cover;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparentize(#000, .66);
+        background-image: linear-gradient(to bottom, transparent 0%, transparentize(#000, .8)80%);
+    }
+}
+.footer__wrapper {
+    @extend .container;
+    position: relative;
+    z-index: 1;
+}
+.footer__box {
+    margin: rem(60px) 0 0 0;
+    text-align: center;
+}
+.footer__contacts {
+    margin: rem(20px) 0 0 0;
+}
+.footer__contacts-phone {
+    font-size: rem(36px);
+    font-weight: 800;
+    line-height: 1.4;
+    a {
+        text-decoration: none;
+        color: #fff;
+        transition: all .5s ease;
+        &:hover, &:active,&:focus {
+            color: $accent-color;
+        }
+    }
+}
+.footer__contacts-mail {
+    margin: rem(20px) 0 0 0;
+    font-size: rem(24px);
+    a {
+        color: #fff;
+        transition: all .5s ease;
+        &:hover, &:active,&:focus {
+            color: $accent-color;
+        }
+    }
+}
+.footer__copy {
+    margin: rem(60px) 0 0 0;
+    font-size: rem(14px);
+    color: #fff;
+    a {
+        color: #fff;
+        transition: all .5s ease;
+        &:hover, &:active,&:focus {
+            color: $accent-color;
+        }
+    }
+}
+.footer__button {
+    position: absolute;
+    z-index: 2;
+    right: 5%;
+    bottom: rem(140px);
+    a {
+        display: inline-block;
+        vertical-align: top;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        transition: all .5s ease;
+        &:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(../img/sprites.png);
+            background-repeat: no-repeat;
+            background-position: -755.9772338867188px -3.2659080505371094px ;
+        	width: 16px;
+        	height: 10px;
+            transition: all .5s ease;
+        }
+        &:hover, &:active,&:focus {
+            border-color: $accent-color;
+            &:before {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
